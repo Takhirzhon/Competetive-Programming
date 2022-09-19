@@ -5,18 +5,27 @@ public class Primality {
         Scanner scan = new Scanner(System.in);
 
         int test = scan.nextInt();
-        int num = scan.nextInt();
-        int i = 0;
-        while (test <= i) {
-            if (num < 2) {
-                System.out.println("No");
+        while (test-- > 0) {
+            boolean chk = true;
+            int num = scan.nextInt();
+            if (num == 1) {
+                System.out.println("no");
+                continue;
             }
-            for (int k = 1; k < Math.sqrt(num) ; i += 3) {
-                if (num % 2 == 1) {
-                    System.out.println("Yes");
+            if (num == 2) {
+                System.out.println("yes");
+                continue;
+            }
+            for (int k = 2; k < num/2 + 1; k++) {
+                if (num % k == 0) {
+                    System.out.println("no");
+                    chk = false;
+                    break;
                 }
             }
+            if (chk) {
+                System.out.println("yes");
+            }
         }
-        ++i;
     }
 }
