@@ -7,7 +7,7 @@ public class UniBall {
         int numOfBoys, numOfGirls;
         int counter = 0;
         numOfBoys = scan.nextInt(); ;
-        int a [numOfBoys];
+        // int a [numOfBoys];
 
     }
 }
