@@ -1,0 +1,14 @@
+//
+// Created by tashm on 11/9/2022.
+//
+
+#ifndef COMPETETIVE_PROGRAMMING_DIVIDE_H
+#define COMPETETIVE_PROGRAMMING_DIVIDE_H
+
+
+class divide {
+
+};
+
+
+#endif //COMPETETIVE_PROGRAMMING_DIVIDE_H
