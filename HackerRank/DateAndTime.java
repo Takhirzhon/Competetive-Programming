@@ -32,8 +32,6 @@ class Result {
         }
         return date;
     }
-    System.out.println();
-
 }
 
 public class DateAndTime {
