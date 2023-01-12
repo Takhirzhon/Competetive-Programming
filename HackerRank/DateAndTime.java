@@ -33,7 +33,6 @@ class Result {
         return date;
     }
 }
-
 public class DateAndTime {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
