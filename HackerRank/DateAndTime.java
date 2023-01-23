@@ -19,6 +19,8 @@ class Result {
      */
     static Calendar cal = Calendar.getInstance();
 
+
+
     public static String findDay(int month, int day, int year) {
 
         month = scan.nextInt();
