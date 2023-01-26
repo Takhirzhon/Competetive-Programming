@@ -1,3 +1,0 @@
-C:/Users/tashm/CLionProjects/Competetive-Programming/cmake-build-debug/CMakeFiles/Competetive_Programming.dir
-C:/Users/tashm/CLionProjects/Competetive-Programming/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/tashm/CLionProjects/Competetive-Programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
