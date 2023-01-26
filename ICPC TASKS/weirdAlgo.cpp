@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    int num;
+    long long num;
     cin >> num;
 
     while (true) {
@@ -12,11 +12,11 @@ int main() {
         cout << num << " ";
         if (num == 1) break;
         if (num % 2 == 0) {
-            num / 2;
+            num = num / 2;
         } else {
-            num * 3 + 1 ;
+            num = num * 3 + 1;
         }
     }
     cout << "\n";
 
-};
+}
