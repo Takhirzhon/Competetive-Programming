@@ -9,6 +9,7 @@ public class Akxix {
         x1 = a.nextFloat();
         y1 = a.nextFloat();
         x2 = a.nextFloat();
+
         y2 = a.nextFloat();
         float dis= (float) sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
         System.out.printf("%.4f\n",dis);
