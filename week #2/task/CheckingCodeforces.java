@@ -9,7 +9,6 @@ public class CheckingCodeforces {
             if("codeforces".indexOf(letter) != -1) {
                 System.out.println("YES");
             }
-
             else {
                 System.out.println("NO");
             }
