@@ -1,39 +1,20 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
 class Result {
-   public static Scanner scan = new Scanner(System.in);
-    /*
-     * Complete the 'findDay' function below.
-     *
-     * The function is expected to return a STRING.
-     * The function accepts following parameters:
-     *  1. INTEGER month
-     *x
-     *  2. INTEGER day
-     *  3. INTEGER year
-     */
-    static Calendar cal = Calendar.getInstance();
-
 
 
     public static String findDay(int month, int day, int year) {
-
+        Scanner scan = new Scanner(System.in);
         month = scan.nextInt();
         day = scan.nextInt();
         year = scan.nextInt();
 
-        String date = null;
-        if (year >= 2000 && year <= 3000) {
-            date = String.valueOf(cal.getTime());
-        }
-        return date;
+        String s;
+        s = java.time.LocalDate.of(month, day, year).toString();
+        return s;
     }
+
 }
 
 public class DateAndTime {
