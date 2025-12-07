@@ -1,3 +1,4 @@
+
 #This code below is O(n^2)
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
