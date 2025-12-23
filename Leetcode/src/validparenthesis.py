@@ -12,3 +12,22 @@ class Solution:
                     return False
                 stack.pop()             
         return len(stack) == 0  
+
+
+# class Solution:
+#     def isValid(self, s: str) -> bool:
+#         valid = []
+#         pairs = {')': '(', ']': '[', '}': '{'}
+#         for ch in s:
+#             if ch not in pairs:
+#                 valid.append(ch)
+#             else:
+#                 if (len(valid) != 0 and valid[-1]==pairs[ch]):
+#                     valid.pop()
+#                 else:
+#                     return False
+#         if(len(valid)!=0):
+#             return False
+#         else:
+#             return True 
+    
