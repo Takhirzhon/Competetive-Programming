@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\tashmatov\CLionProjects\Competetive-Programming Select CMakeLists.txt
