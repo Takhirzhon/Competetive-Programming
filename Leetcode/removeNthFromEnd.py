@@ -1,13 +1,17 @@
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        res = ListNode(0, head)
-        dummy =res
+        dummy = ListNode(0, head)
+        slow = dummy
+        fast = head
 
+        # fast уходит вперед на n шагов
         for _ in range(n):
-            head = head.next
-        while head:
-            head = head.next
-            dummy = dummy.next
-        
-        dummy.next = dummy.next.next
-        return res.next
+            fast = fast.next
+
+        # теперь оба идут по 1 шагу
+        while fast:
+            slow = slow.next
+            fast = fast.next
+
+        slow.next = slow.next.next
+        return dummy.next
